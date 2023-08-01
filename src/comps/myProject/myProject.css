@@ -1,0 +1,68 @@
+.my-project {
+  background-color: #222;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.my-project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-project-img-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.my-project-img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.my-project-description {
+  font-size: 18px;
+  margin: 15px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.my-project-btns-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.btn.git {
+  background-color: #ff5252;
+  color: #fff;
+}
+
+.btn.demo {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.btn.git:hover,
+.btn.demo:hover {
+  background-color: #ff1744;
+}
+
+a{
+  all: unset;
+}

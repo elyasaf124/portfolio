@@ -1,0 +1,28 @@
+ {
+     "data" : [
+        {
+            "projectName":"chat app with socket.io",
+            "img":"../../assets/images/chat-app",
+            "git":"https://github.com/elyasaf124/chat-app",
+            "Demo":"https://chat-cli.onrender.com"
+        },
+        {
+            "projectName":"book-app",
+            "img":"../../assets/images/books-logo.png",
+            "git":"https://github.com/elyasaf124/book-app",
+            "Demo":"https://book-app-cli.onrender.com"
+        },
+        {
+            "projectName":"cinema-city",
+            "img":"../../assets/images/cinema-logo.png",
+            "git":"https://github.com/elyasaf124/cinema-app",
+            "Demo":"https://cinema-lbeg.onrender.com"
+        },
+        {
+            "projectName":"trading-system",
+            "img":"../../assets/images/trading-system-logo.png",
+            "git":"https://github.com/elyasaf124/trading-system-app",
+            "Demo":"https://trading-system-cli.onrender.com"
+        }
+     ]
+}
