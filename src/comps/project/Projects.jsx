@@ -12,10 +12,7 @@ const Projects = () => {
                     console.log(project)
                     return <MyProject project={project} />
                 })}
-                {/* <MyProject />
-                <MyProject />
-                <MyProject />
-                <MyProject /> */}
+
             </div>
         </div>
     )

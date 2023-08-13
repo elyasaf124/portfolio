@@ -34,8 +34,8 @@ const MyProject = ({ project }) => {
                 </div>
                 <p className='my-project-description'>{project.projectName}</p>
                 <div className='my-project-btns-container'>
-                    <button className='btn git'><a href={project.git}>Github</a></button>
-                    <button className='btn demo'><a href={project.Demo}>Demo</a></button>
+                    <button className='btn git'><a target="_blank" rel="noopener noreferrer" href={project.git}>Github</a></button>
+                    <button className='btn demo'><a target="_blank" rel="noopener noreferrer" href={project.Demo}>Demo</a></button>
                 </div>
             </div>
         </div>
